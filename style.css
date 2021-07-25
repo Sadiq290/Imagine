@@ -1,0 +1,241 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: rgb(134, 85, 85); */
+}
+
+header {
+    background-color: rgb(58, 56, 56);
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    text-decoration: none;
+    padding: 15px 20px 20px 20px;
+    color: white;
+}
+.navbar a:hover:not(.active){
+    background-color: whitesmoke;
+    color: black;
+}
+.active{
+    background-color: green;
+}
+.middle {
+    width: 100%;
+    height: 900px;
+    background-image: url('https://shayok2061.github.io/ImagineDragon/audience-1868137_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.last{
+    width: 100%;
+    height: 800px;
+    background-image: url('https://shayok2061.github.io/ImagineDragon/concert-768722_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+}
+.third{
+    background-color: white;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.title p{
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.travel{
+    background-color: black;
+    color: white;
+    height: auto;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+.travelDiv h1{
+    font-size: 35px;
+    margin-bottom: 0%;
+    padding-top: 80px;
+}
+.travelDiv p{
+    font-weight: 500;
+    font-size: 18px;
+}
+.travelDiv{
+    text-align: center;
+}
+.monthDiv{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.eachMonth{
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 0px 0px 0px 25px;
+    border: 2px solid black;
+}
+.eachMonth h3{
+    font-size: 15px;
+}
+.eachMonth button{
+    background-color: rgb(230, 16, 16);
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    border: none;
+    font-size: 13px;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 8px 0px 8px 30px;
+}
+#special{
+    background-color: black;
+    border-radius: 50%;
+    padding: 0px 12px 4px 12px;
+    margin-left: 85%;
+}
+.titleLine{
+    font-size: 35px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+.locationDiv{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 50px;
+    color: black;
+}
+.location{
+   border:2px solid black;
+   background-color: white;
+   height: 420px;
+   width: 100%;
+   margin-bottom: 120px;
+   border-radius: 5px;
+}
+.location img{
+    width: 100%;
+    height: 220px;
+}
+.locationDiv h3,p{
+    padding: 0px 0px 0px 16px;
+}
+.locationDiv button{
+    margin-left: 16px;
+    font-family: 'Raleway',sans-serif;
+    height: 32px;
+    border-radius: 3px;
+    padding: 0px 10px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.locationDiv button:hover{
+    background-color: forestgreen;
+}
+.time{
+    font-weight: 600;
+}
+.contact{
+    height: auto;
+    margin-bottom: 80px;
+}
+.contactDiv h1{
+    font-size: 35px;
+    margin-bottom: 0%;
+    padding-top: 40px;
+}
+.contactDiv{
+    text-align: center;
+    margin-top: 0%;
+}
+.track{
+    margin: 0 auto;
+    width: 90%;
+}
+.track i{
+    margin-right: 20px;
+}
+.messageTrack{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.message{
+    margin-top: 10px;
+}
+.message button{
+    height: 30px;
+    width: 80px;
+    font-family: 'Raleway',sans-serif;
+    background-color: brown;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: white;
+}
+.message input{
+    padding: 10px 0px 10px 15px; 
+    border: 1px solid gray;
+    border-radius: 3px;
+    height: 20px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+}
+.top{
+   width: 200px;
+}
+input:focus {
+    outline: none !important;
+}
+.messageText{
+    margin-top: 10px;
+    width: 420px;
+    display: block;
+}
+.footer{
+    text-align: center;
+    height: 150px;
+}
+.footerPara{
+    margin-top: 80px;
+}
+.footerPara i{
+    text-align: center;
+    font-size: 35px;
+    padding: 3px;
+    color:black;
+}
+@media (max-width: 1000px){
+   #special{
+       margin-left: 80%;
+   }
+   .monthDiv{
+    width: 93%;
+    margin: 0px 25px 0px 25px;
+    margin-top: 40px;
+}
+
+}
+@media (max-width: 800px){
+    #special{
+        margin-left: 68%;
+    }
+ }
+ @media (max-width: 450px){
+    #special{
+        margin-left: 55%;
+    }
+ }
