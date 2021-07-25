@@ -13,19 +13,23 @@ header {
     height: 50px;
     overflow: hidden;
 }
+
 .navbar a {
     float: left;
     text-decoration: none;
     padding: 15px 20px 20px 20px;
     color: white;
 }
-.navbar a:hover:not(.active){
+
+.navbar a:hover:not(.active) {
     background-color: whitesmoke;
     color: black;
 }
-.active{
+
+.active {
     background-color: green;
 }
+
 .middle {
     width: 100%;
     height: 900px;
@@ -33,7 +37,8 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.last{
+
+.last {
     width: 100%;
     height: 800px;
     background-image: url('https://shayok2061.github.io/ImagineDragon/concert-768722_1920.jpg');
@@ -41,7 +46,8 @@ header {
     background-size: 100% 100%;
     margin-bottom: 40px;
 }
-.third{
+
+.third {
     background-color: white;
     height: auto;
     width: 80%;
@@ -49,92 +55,108 @@ header {
     margin: 0 auto;
     margin-bottom: 150px;
 }
-.title p{
+
+.title p {
     font-weight: 500;
     margin-bottom: 40px;
 }
-.travel{
+
+.travel {
     background-color: black;
     color: white;
     height: auto;
     /* text-align: center; */
     margin: 0 auto;
 }
-.travelDiv h1{
+
+.travelDiv h1 {
     font-size: 35px;
     margin-bottom: 0%;
     padding-top: 80px;
 }
-.travelDiv p{
+
+.travelDiv p {
     font-weight: 500;
     font-size: 18px;
 }
-.travelDiv{
+
+.travelDiv {
     text-align: center;
 }
-.monthDiv{
+
+.monthDiv {
     width: 70%;
     margin: 0 auto;
     margin-top: 40px;
 }
-.eachMonth{
+
+.eachMonth {
     background-color: white;
     color: black;
     display: flex;
     padding: 0px 0px 0px 25px;
     border: 2px solid black;
 }
-.eachMonth h3{
+
+.eachMonth h3 {
     font-size: 15px;
 }
-.eachMonth button{
+
+.eachMonth button {
     background-color: rgb(230, 16, 16);
     color: white;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     border: none;
     font-size: 13px;
     border-radius: 2px;
     padding: 10px;
     margin: 8px 0px 8px 30px;
 }
-#special{
+
+#special {
     background-color: black;
     border-radius: 50%;
     padding: 0px 12px 4px 12px;
     margin-left: 85%;
 }
-.titleLine{
+
+.titleLine {
     font-size: 35px;
     margin-top: 120px;
     margin-bottom: 0px;
 }
-.locationDiv{
+
+.locationDiv {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
     width: 70%;
     margin-top: 50px;
     color: black;
 }
-.location{
-   border:2px solid black;
-   background-color: white;
-   height: 420px;
-   width: 100%;
-   margin-bottom: 120px;
-   border-radius: 5px;
+
+.location {
+    border: 2px solid black;
+    background-color: white;
+    height: 420px;
+    width: 100%;
+    margin-bottom: 120px;
+    border-radius: 5px;
 }
-.location img{
+
+.location img {
     width: 100%;
     height: 220px;
 }
-.locationDiv h3,p{
+
+.locationDiv h3, p {
     padding: 0px 0px 0px 16px;
 }
-.locationDiv button{
+
+.locationDiv button {
     margin-left: 16px;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     height: 32px;
     border-radius: 3px;
     padding: 0px 10px;
@@ -142,100 +164,144 @@ header {
     background-color: black;
     border: none;
 }
-.locationDiv button:hover{
+
+.locationDiv button:hover {
     background-color: forestgreen;
 }
-.time{
+
+.time {
     font-weight: 600;
 }
-.contact{
+
+.contact {
     height: auto;
     margin-bottom: 80px;
 }
-.contactDiv h1{
+
+.contactDiv h1 {
     font-size: 35px;
     margin-bottom: 0%;
     padding-top: 40px;
 }
-.contactDiv{
+
+.contactDiv {
     text-align: center;
     margin-top: 0%;
 }
-.track{
+
+.track {
     margin: 0 auto;
     width: 90%;
 }
-.track i{
+
+.track i {
     margin-right: 20px;
 }
-.messageTrack{
+
+.messageTrack {
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.message{
+
+.message {
     margin-top: 10px;
 }
-.message button{
+
+.message button {
     height: 30px;
     width: 80px;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: brown;
     border: none;
     border-radius: 3px;
     margin-top: 10px;
     color: white;
 }
-.message input{
-    padding: 10px 0px 10px 15px; 
+
+.message input {
+    padding: 10px 0px 10px 15px;
     border: 1px solid gray;
     border-radius: 3px;
     height: 20px;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
-.top{
-   width: 200px;
+
+.top {
+    width: 200px;
 }
+
 input:focus {
     outline: none !important;
 }
-.messageText{
+
+.messageText {
     margin-top: 10px;
     width: 420px;
     display: block;
 }
-.footer{
+
+.footer {
     text-align: center;
     height: 150px;
 }
-.footerPara{
+
+.footerPara {
     margin-top: 80px;
 }
-.footerPara i{
+
+.footerPara i {
     text-align: center;
     font-size: 35px;
     padding: 3px;
-    color:black;
-}
-@media (max-width: 1000px){
-   #special{
-       margin-left: 80%;
-   }
-   .monthDiv{
-    width: 93%;
-    margin: 0px 25px 0px 25px;
-    margin-top: 40px;
+    color: black;
 }
 
+@media (max-width: 1050px) {
+    #special {
+        margin-left: 80%;
+    }
+    .monthDiv {
+        width: 93%;
+        margin: 0px 25px 0px 25px;
+        margin-top: 40px;
+    }
+    .locationDiv {
+        display: block;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .location {
+        margin-bottom: 20px;
+        height: 550px;
+    }
+    .location img {
+        height: 330px;
+    }
 }
-@media (max-width: 800px){
-    #special{
+
+@media (max-width:800px) {
+    .middle {
+        height: 600px;
+    }
+}
+
+@media (max-width:450px) {
+    .middle {
+        height: 450px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #special {
         margin-left: 68%;
     }
- }
- @media (max-width: 450px){
-    #special{
+}
+
+@media (max-width: 450px) {
+    #special {
         margin-left: 55%;
     }
- }
+}
