@@ -292,10 +292,8 @@ input:focus {
         height: 600px;
     }
     .messageTrack{
-        display: block;
-    }
-    .top{
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
     .message{
         margin-left: 50px;
