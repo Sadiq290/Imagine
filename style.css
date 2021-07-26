@@ -137,9 +137,9 @@ header {
 }
 
 .location {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color: white;
-    height: 420px;
+    height: 430px;
     width: 100%;
     margin-bottom: 120px;
     border-radius: 5px;
@@ -157,14 +157,13 @@ header {
 .locationDiv button {
     margin-left: 16px;
     font-family: 'Raleway', sans-serif;
-    height: 32px;
+    height: 40px;
     border-radius: 3px;
     padding: 0px 10px;
     color: white;
     background-color: black;
     border: none;
 }
-
 .locationDiv button:hover {
     background-color: forestgreen;
 }
@@ -176,6 +175,7 @@ header {
 .contact {
     height: auto;
     margin-bottom: 80px;
+    /* margin-top: 40px; */
 }
 
 .contactDiv h1 {
@@ -262,15 +262,21 @@ input:focus {
     #special {
         margin-left: 80%;
     }
+    .message input{
+        width: 300px;
+        margin-bottom: 10px;
+    }
     .monthDiv {
         width: 93%;
         margin: 0px 25px 0px 25px;
         margin-top: 40px;
     }
+    
     .locationDiv {
         display: block;
         width: 90%;
         margin-bottom: 30px;
+        padding-bottom: 50px;
     }
     .location {
         margin-bottom: 20px;
@@ -285,6 +291,19 @@ input:focus {
     .middle {
         height: 600px;
     }
+    .messageTrack{
+        display: block;
+    }
+    .top{
+        display: block;
+    }
+    .message{
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    .message button{
+        height: 35px;
+    }
 }
 
 @media (max-width:450px) {
@@ -293,10 +312,12 @@ input:focus {
     }
 }
 
-
 @media (max-width: 800px) {
     #special {
         margin-left: 68%;
+    }
+    .last{
+        height: 400px;
     }
 }
 
