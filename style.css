@@ -304,15 +304,6 @@ input:focus {
     .message button{
         height: 35px;
     }
-}
-
-@media (max-width:450px) {
-    .middle {
-        height: 450px;
-    }
-}
-
-@media (max-width: 800px) {
     #special {
         margin-left: 68%;
     }
@@ -320,9 +311,11 @@ input:focus {
         height: 400px;
     }
 }
-
 @media (max-width: 450px) {
     #special {
         margin-left: 55%;
+    }
+    .middle {
+        height: 450px;
     }
 }
