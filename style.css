@@ -308,6 +308,9 @@ input:focus {
     .last{
         height: 400px;
     }
+    .locationDiv{
+        width: 70%;
+    }
 }
 @media (max-width: 450px) {
     #special {
